@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AsyncLoading</string>
+    <string name="asyncloading_handler">Handler方式</string>
+    <string name="asyncloading_asynctask">AsyncTask</string>
+    <string name="asyncloading_runonuithread">RunOnUIThread</string>
+    <string name="asyncloading_loader">Loader</string>
+    <string name="asyncloading_post">ViewPost</string>
+    <string name="asyncloading_rxjava">Rxjava</string>
+    <string name="asyncloading_eventbus">EventBus</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.iwuyou.asyncloading.MainActivity">
+
+    <Button
+        android:id="@+id/asyncloading_handler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asyncloading_handler" />
+
+    <Button
+        android:id="@+id/asyncloading_asynctask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asyncloading_asynctask" />
+
+    <Button
+        android:id="@+id/asyncloading_loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asyncloading_loader" />
+
+    <Button
+        android:id="@+id/asyncloading_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asyncloading_post" />
+
+    <Button
+        android:id="@+id/asyncloading_runonuithread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asyncloading_runonuithread" />
+
+    <Button
+        android:id="@+id/asyncloading_rxjava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asyncloading_rxjava" />
+
+    <Button
+        android:id="@+id/asyncloading_eventbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asyncloading_eventbus" />
+</LinearLayout>
